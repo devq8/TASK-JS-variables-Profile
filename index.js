@@ -10,9 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
-
+let fullName = 'Khaled Alghanim'
+let yearOfBirth = 1986
+let hobby = 'Coding'
+let funFact = ''
+const image = 'https://cdn-icons-png.flaticon.com/512/147/147133.png'
 
 
 
@@ -29,9 +31,10 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+let currentYear = new Date().getFullYear();
+const yearOfBirthString = `I'm ${currentYear - yearOfBirth}`;
+const hobbyString = `My hobbies is ${hobby}`;
 
 
 
@@ -45,14 +48,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars += 1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars -= 1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars += 2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -= 2;
 }
